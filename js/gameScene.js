@@ -1,32 +1,56 @@
+/* eslint valid-jsdoc: "error" */
+/* eslint-env es6 */
+
+/**
+ * aa
+ */
 class GameScene extends Phaser.Scene {
+  /**
+   * xxx
+   */
+  constructor() {
+    super({key: 'gameScene'});
+  }
 
-	constructor() {
-		super({key : 'gameScene'});
-	}
+  /**
+   * xxx
+   * @returns {void}
+   */
+  init() {
+    this.cameras.main.setBackgroundColor('#000000');
+  };
 
-	init() {
-    this.cameras.main.setBackgroundColor('#000000')
-		
-	};
+  /**
+   * xxx
+   * @returns {void}
+   */
+  preload() {
 
-	preload() {
-		
-	}
+  }
 
-	create() {
-	   
+  /**
+   * xxx
+   * @returns {void}
+   */
+  create() {
 
-	}
+  }
 
-	update() {
+  /**
+   * xxx
+   * @returns {void}
+   */
+  update() {
 
-	}
+  }
 
+  /**
+   * xxx
+   * @returns {void}
+   */
+  end() {
 
-	end() {
-		
-	}
-
+  }
 }
 
 export default GameScene;
